@@ -8,20 +8,28 @@ body {
   /* hint : repeat proparty */
   /* اكتب  الكود هنا 👇🏽 */
   background-color: #B7999C;
-  background-size: 30px;
+  background-size: 60px;
   background-repeat: no-repeat;
   /* المطلوب الخامس هنا  */
   /* يظهر بمتنصف الصفحة  movie cards  اجعل ال   */
   /* hint:    flex طول قبل استخدام خواص ال body اعط ل  */
   /* اكتب  الكود هنا 👇🏽 */
-  display: flex;
-  height: 500px;
   
+}
+.c{
+  display: flex;
+  justify-content: space-around;
+  min-height: 400px;
+  margin-top: 90px;
 }
 
 p{
   font-style: italic;
-  text-shadow: 2px 2px #474646;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-shadow: -4px 3px 8px black;
+  margin: 0;
 }
 
 .myimage {
@@ -31,10 +39,10 @@ p{
   /* 3. add box shadow */
   /* اكتب  الكود هنا 👇🏽 */
   height: 350px;
-  border-radius: 30px;
+  border-radius: 20px;
 }
 .myimage:hover{
-  box-shadow: 0 4px 8px #474646;
+  box-shadow: -4px 3px 8px black;
 }
 
 .button {
@@ -44,10 +52,14 @@ p{
            3.remove border
            4. change  background color */
   /* اكتب  الكود هنا 👇🏽 */
-  height: auto;
-  width: 200px;
+  height: 20px;
+  width: 60px;
   border: none;
+  padding: auto;
   background-color: #297373;
+  border-radius: 10px;
+  color: white;
+  /* margin: 30px; */
 }
 
 .container {
@@ -61,11 +73,12 @@ p{
          7.  border radius */
   /* اكتب  الكود هنا 👇🏽 */
   background-color: #332E3C;
-  
-  /* flex-direction: column;
-  align-content: space-around;
-  align-items: center;
-  border-radius: 30px;
-  justify-content: center;  */
-  
+  width: 300px;
+  height: 550px;
+  padding: 10px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center ;
+  justify-content: space-evenly;
 }
